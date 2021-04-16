@@ -303,7 +303,7 @@ export default class MImagePicker extends React.Component {
           <MButton
             onPress={toggleCamera}
             style={{ backgroundColor: 'transparent' }}
-            textSyle={{ color: "blue" }}
+            textSyle={{ color: "#ff6347" }}
           >
             <Icon name="camera" size={40} color="white" />
           </MButton>
@@ -489,19 +489,19 @@ export default class MImagePicker extends React.Component {
         <View style={styles.headerContainer}>
           <MButton
             onPress={this.props.onCancel}
-            style={{ backgroundColor: 'white' }}
-            textSyle={{ color: 'blue' }}
+            style={{ backgroundColor: 'transparent' }}
+            textSyle={{ color: '#ff6347' }}
             title={cancelTitle} />
           <MButton
             onPress={this.showCamera}
-            style={{ backgroundColor: 'white' }}
+            style={{ backgroundColor: 'transparent' }}
           >
-            <Icon name="camera" size={30} color="black" />
+            <Icon name="camera" size={30} color="white" />
           </MButton>
           <MButton
             onPress={this.next}
-            style={{ backgroundColor: 'white' }}
-            textSyle={{ color: 'blue' }}
+            style={{ backgroundColor: 'transparent' }}
+            textSyle={{ color: '#ff6347' }}
             title={nextTitle} />
 
         </View>
@@ -580,7 +580,7 @@ export default class MImagePicker extends React.Component {
 
 const styles = StyleSheet.create({
   headerContainer: {
-    backgroundColor: 'white',
+    backgroundColor: '#111111',
     width: '100%',
     height: 50,
     borderBottomColor: 'white',
